@@ -1,4 +1,4 @@
-from utils import minus_numbers, degree_numbers
+from utils import minus_numbers, degree_numbers, add_numbers, multiply_numbers
 
 
 def main():
@@ -10,6 +10,12 @@ def main():
 
     degree_result = degree_numbers(num1, num2)
     print(f"Число в степени: {degree_result}")
+
+    sum_result = add_numbers(num1, num2)
+    print(f"Сумма чисел: {sum_result}")
+
+    multiply_result = multiply_numbers(num1, num2)
+    print(f"Произведение числе: {multiply_result}")
 
 
 
